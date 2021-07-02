@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--favicon -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>KOJO AR Test</title>
+  <link href="./css/homepage.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="./libs/fas.js"></script>
+    <script type="module">
+        import { App } from './app.js';
+
+        document.addEventListener("DOMContentLoaded", function(){
+            const app = new App();
+            window.app = app;
+        });
+    </script>
+    <div class="start-container">
+      <div class="text">AR Test with ThreeJS<br> Click to Start growing mushrooms.</div>
+      <!-- Navigation -->
+      <button class="ar-button" onclick="window.app.startAr();"><i class="fas fa-camera"></i> Start Growing</button>
+    </div>
+
+    <div class="modal">A Modal</div>
+
+</body>
+
+</html>

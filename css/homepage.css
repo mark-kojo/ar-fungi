@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+
+}
+
+canvas {
+  position: fixed;
+}
+
+.start-container {
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #01DAB8;
+}
+
+.emersive .start-container {
+  display: none;
+}
+
+.ar-button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: helvetica;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.ar-button svg {
+  margin-right: 8px;
+  font-size: 27px;
+  top: -2px;
+  position: relative;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 21px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+body.emersive .ar-button {
+  display: none
+}
+
+body.emersive .text {
+  display: none
+}
+
+.modal {
+  width: 90%;
+  height: 100px;
+  background: white;
+  z-index: 9999999999999;
+  border-radius: 6px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  position: fixed;
+  opacity: 0.8;
+  top: 0;
+  display: none;
+}
